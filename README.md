@@ -1,73 +1,54 @@
-This project is a full-stack clone of the popular accommodation booking platform AirBnB. The goal is to build a functional web application that allows users to browse property listings, view detailed property information, and complete bookings. The project will cover frontend development, backend APIs, database design, and deployment.
+## 📘 Table of Contents
 
-Techstacks:
-Frontend: HTML, CSS, JavaScript (React framework)
-Version Control: Git and GitHub
-Design Tools: Figma for UI/UX design.
+* [Use Case Diagrams](#use-case-diagrams)
+* [What Are Use Case Diagrams?](#what-are-use-case-diagrams)
+* [Benefits of Use Case Diagrams](#benefits-of-use-case-diagrams)
+* [Use Case Diagram for Booking System](#use-case-diagram-for-booking-system)
 
-UI/UX Design Planning.
-Design Goals;
-Create intuitive booking flow
-Maintain visual consistency
-Ensure fast loading times
-Prioritize mobile responsiveness
+---
 
-Color Styles:
+## 🧩 Use Case Diagrams
 
-Primary: #FF5A5F
-Secondary: #008489
-Background: #FFFFFF
-Text: #222222
-Secondary Text: #717171
+Use Case Diagrams are an essential part of the requirement analysis process. They visually map out how different users (actors) interact with the system. This section illustrates how to apply them in modeling the functional requirements of a **Booking Management System**.
 
-Key Features;
-Property search and filtering
-Detailed property viewing
-Secure checkout process
-User authentication
+---
 
-Primary Pages
-Page	Description;
-| Page                  | Description                                            |
-| --------------------- | ------------------------------------------------------ |
-| Property Listing View | Grid display of available properties with filters      |
-| Listing Detailed View | Complete property details with images and booking form |
-| Simple Checkout View  | Streamlined payment and booking confirmation           |
+## ❓ What Are Use Case Diagrams?
 
-Importance of User-Friendly Design
-A well-designed booking system reduces friction in the user journey, increases conversion rates, and improves customer satisfaction. Clear navigation, intuitive interfaces, and responsive design are critical for success.
+A **Use Case Diagram** shows the relationship between users and the system's key functions. It focuses on **what the system does** rather than how it does it.
 
-Project Roles and Rsponsibilities;
+* 📌 **Actors**: Users or external systems that interact with your application.
+* 📌 **Use Cases**: Actions or services the system provides.
 
-| Role               | Responsibilities                                                        |
-|--------------------|-------------------------------------------------------------------------|
-| Project Manager    | Oversees timeline, coordinates team, manages deliverables               |
-| Frontend Developers| Implements UI components, ensures responsive design                     |
-| Backend Developers | Builds APIs, manages database, implements business logic                |
-| Designers          | Creates mockups, maintains design system, ensures UX quality            |
-| QA/Testers         | Writes test cases, performs testing, reports bugs                       |
-| DevOps Engineers   | Manages deployment, CI/CD pipeline, server infrastructure               |
-| Product Owner      | Defines requirements, prioritizes features, represents stakeholders     |
-| Scrum Master       | Facilitates agile processes, removes blockers, organizes meetings       |
+---
 
+## 🌟 Benefits of Use Case Diagrams
 
-UI Component Patterns;
+* 👤 **User-Centric View**: Captures the system from the user's perspective.
+* 🧠 **Improved Understanding**: Clarifies functional requirements early on.
+* 🧭 **Scoping Aid**: Helps define project boundaries and priorities.
+* 🔁 **Reusable & Scalable**: Easily adaptable as system needs grow.
+* 🛠️ **Supports Design**: Assists developers in planning system logic and interactions.
 
-Planned Components;
-Navbar
-Logo
-Search bar
-User navigation
-Responsive menu
-Property Card
+---
 
-Property image
-Basic details (price, location, rating)
-Favorite button
-Responsive layout
-Footer
+## 🖼️ Use Case Diagram for Booking System
 
-Site links
-Company information
-Social media links
-Copyright information
+Here’s a simple use case diagram for a **Booking Management System**:
+
+📌 **Actors**:
+
+* Guest
+* Host
+* Admin
+
+📌 **Use Cases**:
+
+* Register / Login
+* Browse Properties
+* Book Property
+* Manage Listings
+* View Bookings
+* Approve/Reject Listings
+* Generate Reports
+
